@@ -9,6 +9,7 @@ namespace WeddingAuth
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            /**попробуем переопубликовать*/
         }
     }
 }
