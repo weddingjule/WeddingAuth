@@ -65,6 +65,9 @@ namespace WeddingAuth.Models
     public class RegisterViewModel
     {
         [Required]
+        public decimal Price { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
